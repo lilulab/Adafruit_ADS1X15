@@ -42,7 +42,9 @@
     CONVERSION DELAY (in mS)
     -----------------------------------------------------------------------*/
     #define ADS1015_CONVERSIONDELAY         (1)
-    #define ADS1115_CONVERSIONDELAY         (8)
+    // #define ADS1115_CONVERSIONDELAY         (8) //default
+    // #define ADS1115_CONVERSIONDELAY         (2) // Fast and Furious mode (single channel)
+    #define ADS1115_CONVERSIONDELAY         (4) // Fast and Furious mode (4 channels)
 /*=========================================================================*/
 
 /*=========================================================================
